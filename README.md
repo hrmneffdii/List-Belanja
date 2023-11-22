@@ -1,3 +1,3 @@
 # Project Keranjang Belanja
 
-[![Video simulasi](simulasi.webm)](simulasi.webm)
+[![Video simulasi](simulasi.webm)]
