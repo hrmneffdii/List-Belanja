@@ -8,17 +8,49 @@ Props. Untuk lebih jelasnya, mari simak video simulasi Projek List Belanja sebag
 
 [simulasi.webm](https://github.com/hrmneffdii/List-Belanja/assets/149390129/98349694-b46b-4c31-95a6-87b9c67ca0b5)
 
+<br>
 
 ### Penjelasan
 
-Untuk lebih detailnya, berikut merupakan rincian penggunaan konsep dasar React Js dari project List Belanja :
 
-Penggunaan komponent : 
-  - NavBar
-  - SearchInput
-  - Todos (list)
-  - Empty
 
-Penggunaan Hook dan State : 
-  - useState untuk menampung input dari user
-  - useState untuk memanipulasi list 
+Dari video yang ditampilkan, tentu kita kesulitan untuk memahami cara kerja dari Komponen dan juga penggunaan State dan Hooknya. Untuk lebih detailnya, berikut merupakan rincian dari cara kerja komponen dan penggunaan State dan Hook nya:
+
+
+1. Dari cara kerja komponen, kita bisa memecahnya web secara utuh menjadi beberapa bagian kompoenen. Komponen yang ada meliputi :
+   
+    - NavBar
+      Komponen ini meliputi bagian atas sendiri dan juga memuat tulisan "Keranjang Belanja"
+      
+    - SearchInput
+      Komponen ini berfokus pada inputan yang dilakukan oleh user
+      
+    - Info
+      Komponen ini menampilkan rincian data seperti jumlah list dan juga jumlah secara keseluruhan
+      
+    - Container
+      Komponen ini berfokus pada pembuatan main section untuk menampung tiap baris dari list yang ditampilkan
+      
+    - Todos (list)
+      Komponen ini mengatur daripada tampilan tiap list yang ditampilkan
+      
+    - Empty
+      Komponen yang mengatur ketika list kosong
+
+
+    <br>
+2. Untuk penggunaan Hook dan State itu sendiri, meliputi :
+   
+    - useState untuk menampung input dari user,
+      Contoh : 'semangka' etc.
+      
+    - useState untuk memanipulasi list,
+      Contoh :
+      [{title : semangka,
+        count : 1}]
+
+
+
+
+<br><br>
+### Terima Kasih
