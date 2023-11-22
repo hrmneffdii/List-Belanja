@@ -19,38 +19,37 @@ Dari video yang ditampilkan, tentu kita kesulitan untuk memahami cara kerja dari
 
 1. Dari cara kerja komponen, kita bisa memecahnya web secara utuh menjadi beberapa bagian kompoenen. Komponen yang ada meliputi :
    
-    - NavBar
+    - NavBar <br>
       Komponen ini meliputi bagian atas sendiri dan juga memuat tulisan "Keranjang Belanja"
       
-    - SearchInput
+    - SearchInput <br>
       Komponen ini berfokus pada inputan yang dilakukan oleh user
       
-    - Info
+    - Info <br>
       Komponen ini menampilkan rincian data seperti jumlah list dan juga jumlah secara keseluruhan
       
-    - Container
+    - Container <br>
       Komponen ini berfokus pada pembuatan main section untuk menampung tiap baris dari list yang ditampilkan
       
-    - Todos (list)
+    - Todos (list) <br>
       Komponen ini mengatur daripada tampilan tiap list yang ditampilkan
       
-    - Empty
+    - Empty <br>
       Komponen yang mengatur ketika list kosong
 
 
     <br>
 2. Untuk penggunaan Hook dan State itu sendiri, meliputi :
    
-    - useState untuk menampung input dari user,
+    - useState untuk menampung input dari user, <br>
       Contoh : 'semangka' etc.
       
-    - useState untuk memanipulasi list,
+    - useState untuk memanipulasi list, <br>
       Contoh :
-      [{title : semangka,
-        count : 1}]
+      [{title : semangka, count : 1}]
 
 
-
+Sekian ... 
 
 <br><br>
 ### Terima Kasih
