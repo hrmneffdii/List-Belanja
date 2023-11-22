@@ -1,6 +1,3 @@
 # Project Keranjang Belanja
 
-<video width="560" height="315" controls>
-  <source src="https://github.com/hrmneffdii/List-Belanja/blob/main/simulasi.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[simulasi.webm](https://github.com/hrmneffdii/List-Belanja/assets/149390129/98349694-b46b-4c31-95a6-87b9c67ca0b5)
